@@ -1,0 +1,48 @@
+body {
+  background-color: #bdc3c7;
+}
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 20vh;
+}
+
+.board-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square {
+  padding: 30px;
+  outline: none;
+  border-radius: none;
+  height: 100px;
+  width: 100px;
+  font-size: 3rem;
+  background-color: #2c3e50;
+}
+
+.display {
+  font-size: 1.5rem;
+  color: brown;
+}
+
+.reset {
+  margin: 10px;
+  padding: 5px;
+  min-width: 20%;
+  border-radius: 10px;
+  border: none;
+  background: #2980b9;
+  font-size: 1rem;
+  outline: 2px solid blue;
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(3, auto);
+  align-content: center;
+  justify-content: center;
+}
